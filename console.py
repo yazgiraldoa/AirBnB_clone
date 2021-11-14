@@ -196,6 +196,9 @@ class HBNBCommand(cmd.Cmd):
         return True
 
     def emptyline(self):
+        """
+        empty line
+        """
         pass
 
 
