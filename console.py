@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """
-Entry point of the command interpreter
+This file is the entry point of 
+the command interpreter
 """
 import cmd
 import models
@@ -188,16 +189,20 @@ class HBNBCommand(cmd.Cmd):
                 print("** no instance found **")
 
     def do_quit(self, arg):
-        """Command to exit the program"""
+        """
+        Command to exit the program
+        """
         return True
 
     def do_EOF(self, arg):
-        """Command to exit the program"""
+        """
+        Command to exit the program
+        """
         return True
 
     def emptyline(self):
         """
-        empty line
+        Empty line
         """
         pass
 
