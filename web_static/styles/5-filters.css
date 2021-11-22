@@ -17,6 +17,7 @@
     border: none;
     border-radius: 4px;
     margin-right: 30px;
+    margin-left: auto;
 }
 
 .container .filters button:hover {
@@ -27,27 +28,39 @@
     height: 100%;
     width: 25%;
     border-right: 1px solid #DDDDDD;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 30px;
 }
 
 .container .filters .locations h3 {
     font-weight: 600;
+    margin: 0px;
 }
 
 .container .filters .locations h4 {
     font-weight: 400;
     font-size: 14px;
+    margin: 0px;
 }
 
-.container .filters .amenenities {
+.container .filters .amenities {
     height: 100%;
     width: 25%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 30px;
 }
 
-.container .filters .amenenities h3 {
+.container .filters .amenities h3 {
     font-weight: 600;
+    margin: 0px;
 }
 
-.container .filters .amenenities h4 {
+.container .filters .amenities h4 {
     font-weight: 400;
     font-size: 14px;
+    margin: 0px;
 }
